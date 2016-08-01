@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+li{
+	display: inline-block;
+	margin: 15px;
+}
+a{
+	text-decoration: none;
+	color: pink;
+}
+.imagen{
+	background-image: url("../img/cielo.jpg");
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.logo{
+	margin: 30px;
+}
+.fondo{
+	background-image: url(../img/tile1.png);
+}
+.yas{
+	height: 300px;
+	width: 300px;
+}
+.circulo{
+	border-radius: 100%;
+	height: 100%;
+	width: 100%;
+	border: solid 6px pink;
+}
+.circuloa{
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+	border: solid 6px pink;
+}
+.gris{
+	background-image: url(../img/tile2.png);
+}
+.justificado{
+	text-align: justify;
+}
+div{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #47E360;
+}
+ img:hover{
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}/*da efecto :hover*/
+li:hover{
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5)
+}
+.espacio{
+	margin: 50px;
+}
